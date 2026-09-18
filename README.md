@@ -1,3 +1,3 @@
 # html
 html curso em video
-estou parendendo a criar sites agora vou gerenciar meu repositorio no github
+estou aprendendo a criar sites e agora vou gerenciar meus repositórios no GitHub
