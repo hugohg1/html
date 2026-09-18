@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de houver</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover{ 
+            color : red;
+        }
+        div:hover > p{
+            display: block;
+        }
+        div > p{
+            display: none;
+            color: rgb(3, 41, 71);
+            background-color: rgb(126, 168, 207);
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de houver </h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>passe o mouse aqui
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus doloribus dolore asperiores cumque sit quis necessitatibus provident neque unde in, tenetur qui, eum quo veritatis eaque rerum sunt beatae voluptatibus.</p>
+    </div>
+</body>
+</html>

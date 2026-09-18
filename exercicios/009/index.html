@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dinamica</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p> tente abrir esse site em varios dispositivos diferentes</p>
+     <picture>
+        <source media="(max-width: 750px)" srcset="foto/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="foto/m.png" type="image/png">
+        <img src="foto/g.png" alt="Imagem flexível">
+</picture>
+<h1>Reproduzindo Audios</h1>
+<p>vamos aprender a reproduzir audio</p>
+<audio src="midia/audio.mp3" controls loop> audio musica</audio>
+<audio preload="metadata" loop>
+    <source src="midia/audio.mp3" type="audio/mpeg">
+    <source src="midia/audio.mp3" type="audio/mpeg">
+</audio><br>
+<video width="250" controls loop>
+    <source src="video/WhatsApp Video 2026-09-01 at 02.29.48.mp4" type="video/mp4">
+</video>
+   <h1>inserindo video exerno</h1>
+   <iframe width="560" height="560" src="https://www.youtube.com/embed/GilzbcZOcHU?si=4dv2YjJ5AqnR3R33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/iE2-SpDGazQ?si=r2AL7dNWRTIQYKuZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
