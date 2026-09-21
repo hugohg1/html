@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>estudo do iframe</title>
+    <style>
+        iframe.grande{
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de um iframe</h1>
-    <p>acessando o site do CursoemVideo para aprender a programar.</p>
+    <p>acessando o site do <a href="https://www.cursoemvideo.com/" target="_blank">CursoemVideo</a> para aprender a programar.</p>
     
+    
+    <p>acessando o site do
+        <iframe class="grande" src="https://www.cursoemvideo.com/" frameborder="1">
+            <a href="https://www.cursoemvideo.com/" target="_blank">CursoemVideo</a>
+        </iframe>
+        
+         para aprender a programar.</p>
+
+         <p>o site do <iframe src="https://www.google.com/?hl=pt_BR&zx=1790023691178" frameborder="0">
+            <a href="https://www.google.com/?hl=pt_BR&zx=1790023691178" target="_blank">google</a>
+         </iframe> tambem é muito legal, isso é uma proteção</p>
+
+         <p>
+             o meu repositorio
+             <iframe src="https://hugohg1.github.io" frameborder="0">
+                <a href="https://hugohg1.github.io" target="_blank"> repositorio</a>
+             </iframe>
+             tambem é muito legal
+         </p>
+
 </body>
 </html>
